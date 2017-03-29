@@ -202,12 +202,12 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
    
     <p>Lets get in touch. Send me a message:</p>
     <form action="mail.php" method="post">
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="name"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="email" placeholder="Email" required name="email"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="subject"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="message"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" name="name" required></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="email" placeholder="Email" name="email" required></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" name="subject" required></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" name="message" required></p>
       <p>
-        <button class="w3-button w3-light-grey w3-padding-large" type="submit" name="submit">
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit" name="submit" value="Send">
           <i class="fa fa-paper-plane"></i> SEND MESSAGE
         </button>
       </p>
